@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Builder</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder Form</h1>
+    <form id="resumeForm">
+      <h2>Personal Information</h2>
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" required>
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" required>
+
+      <label for="email">Email Id</label>
+      <input type="email" id="email" required>
+
+      <label for="phoneNumber"> Personal Phone Number</label>
+      <input type="tel" id="phoneNumber" required>
+
+      <label for="linkedin">LinkedIn Id</label>
+      <input type="url" id="linkedin">
+
+      <label for="github">GitHub Link</label>
+      <input type="url" id="github">
+
+
+      <label for="gender">Gender</label>
+      <select id="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <h2>Education</h2>
+      <div id="educationSection">
+        <div class="education-item">
+          <label for="eduDegree1">Degree</label>
+          <input type="text" id="eduDegree1" required>
+          <label for="eduInstitution1">Institution</label>
+          <input type="text" id="eduInstitution1" required>
+          <label for="eduSdate">Start Date</label>
+          <input type="text" id="eduSdate" required>
+          <label for="eduEdate">End Date</label>
+          <input type="text" id="eduEdate" required>
+        </div>
+      </div>
+      <button type="button" id="addEducationBtn">Add Education</button>
+
+      <h2>Experience</h2>
+      <div id="experienceSection">
+        <div class="experience-item">
+          <label for="expTitle1">Title</label>
+          <input type="text" id="expTitle1" required>
+          <label for="expCompany1">Company</label>
+          <input type="text" id="expCompany1" required>
+          <label for="expDuration">In Months/Years</label>
+          <input type="text" id="expDuration" required>
+          <label for="expNotice">Notice Period</label>
+          <input type="text" id="expNotice" required>
+        </div>
+      </div>
+      <button type="button" id="addExperienceBtn">Add Experience</button>
+
+      <h2>Skills</h2>
+      <label for="skills">Skills</label>
+      <textarea id="skills" rows="4" required></textarea>
+
+      <h2>Certifications</h2>
+      <div id="certificationsSection">
+        <div class="certification-item">
+          <label for="certName1">Certification Name</label>
+          <input type="text" id="certName1" required>
+          <label for="certOrganization1">Organization</label>
+          <input type="text" id="certOrganization1" required>
+          <label for="certDate1">Issue Date</label>
+          <input type="text" id="certDate1" required>
+        </div>
+      </div>
+      <button type="button" id="addCertificationBtn">Add Certification</button>
+
+      <h2>Professional Summary</h2>
+      <label for="summary">Summary</label>
+      <textarea id="summary" rows="4" required></textarea>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <div id="resumeOutput"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

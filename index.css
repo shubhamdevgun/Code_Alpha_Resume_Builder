@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/5590044.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #d87408;
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #067622;
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #454ea0;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #454ea0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #454ea0;
+  }
+  
+  .reset-button {
+    background-color: #ccc;
+  }
+  
+  .reset-button:hover {
+    background-color: #999;
+  }
+  
+  #resumeOutput {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .education-item, .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .hr-divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .resume-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .resume-section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume-subsection-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .resume-item {
+    margin-bottom: 10px;
+  }
+  
+  .resume-item strong {
+    font-weight: bold;
+  }
+  
+  .resume-skills {
+    margin-bottom: 10px;
+  }
+  
+  .resume-summary {
+    margin-bottom: 20px;
+  }
+ 
+
+.add-button {
+    margin-bottom: 10px;
+  }
+   
+  .certification-item {
+    margin-bottom: 20px;
+  }
